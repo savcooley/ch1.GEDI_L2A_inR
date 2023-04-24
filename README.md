@@ -11,3 +11,4 @@ Autora: Savannah Cooley
 Objetivo: Procesar y analizar datos de GEDI L2A
 Descripción: este script en R ejecuta una función de procesamiento de datos GEDI que filtra los datos y luego los subdivide espacialmente en un área de interés definida por el usuario y guarda los datos como archivos .csv.
 Aplicamos los siguientes pasos de filtrado de ruido basados en la metodología descrita por Potapov et al. (2020): (a) modo de haz de potencia únicamente, (b) sensibilidad del haz ≥0,9 y (c) rango de elevaciones del suelo previstas de ≤2 m entre los cinco algoritmos después de eliminar el algoritmo que produjo la mayor elevación atípica. Para (c), nos desviamos de Potapov et al. (2020) y eligió este enfoque para conservar algunas observaciones que, de otro modo, se habrían eliminado si se aplicara el umbral de rango de ≤2 m a los seis algoritmos.
+ 
